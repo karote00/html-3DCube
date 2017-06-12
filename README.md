@@ -24,8 +24,7 @@ No need with other plugins.
 3. Every single cube's transform should rotate first then translate position, if you change the order, you'll get different result.
 
 ```css
-.cube {
-	...
+.cube .right {
 	transform: rotateY(90deg) translateZ(150px);
 }
 ```
